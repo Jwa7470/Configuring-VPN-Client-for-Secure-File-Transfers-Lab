@@ -1,1 +1,3 @@
 # Configuring-VPN-Client-for-Secure-File-Transfers-Lab
+
+This repo documents Lab 09: Configuring a VPN Client for Secure File Transfers, from the Network Security, Firewalls, and VPNs (3rd Edition) course. The lab covers configuring a Windows IPsec/IKEv2 VPN client (including via PowerShell with Add-VpnConnection and custom IPsec policies), verifying AES-256 encrypted tunnel connectivity with ping/tracert, and using Wireshark to analyze the IKE_SA_INIT/IKE_AUTH handshake, CREATE_CHILD_SA exchange, and ESP-encrypted traffic. Also includes a side-by-side comparison of unencrypted FTP (captured cleartext credentials and file contents) versus encrypted SSH/SFTP file transfers to demonstrate the security value of VPN tunneling. (Placeholder — to be redone and expanded.)
